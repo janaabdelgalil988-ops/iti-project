@@ -1,0 +1,88 @@
+body {
+    background-color: #F3EBDD;
+    font-family: Arial, sans-serif;
+    color: #4A453F;
+}
+
+h1 {
+    color: olive;
+    width: 300px;
+    padding: 20px;
+    margin: 30px auto;
+    border: 2px solid olive;
+    text-align: center;
+}
+
+p {
+    color: olive;
+    text-align: center;
+}
+
+.Jewelery-card {
+    background-color: beige;
+    width: 300px;
+    padding: 30px;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px solid olive;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(74, 69, 63, 0.12);
+    transition: 0.3s;
+}
+
+.Jewelery-card:hover {
+    border-color: olive;
+    transform: translateY(-5px);
+}
+
+h2 {
+    text-align: center;
+    color: olive;
+}
+
+img {
+    width: 150px;
+    max-width: 100%;
+}
+
+button {
+    background-color: olive;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#wishlist {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+#wishlist div {
+    background-color: beige;
+    border: 1px solid olive;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#wishlist div span {
+    color: olive;
+}
+
+#wishlist div button {
+    margin: 0;
+    padding: 8px 12px;
+}
